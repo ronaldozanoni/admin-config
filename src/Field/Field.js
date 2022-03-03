@@ -19,6 +19,7 @@ class Field {
         this._pinned = false;
         this._flattenable = true;
         this._helpText = null;
+        this._helpTooltip = null;
         this.dashboard = true;
         this.list = true;
         this._template = () => '';
@@ -224,6 +225,15 @@ class Field {
         }
 
         return this._helpText;
+    }
+
+    helpTooltip() {
+        if (arguments.length) {
+            this._helpTooltip = arguments[0];
+            return this;
+        }
+
+        return this._helpTooltip;
     }
 
     getTemplateValue(data) {
