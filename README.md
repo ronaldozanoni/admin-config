@@ -1,3 +1,5 @@
+# This repository is a fork of https://github.com/marmelab/admin-config
+
 # admin-config [![Build Status](https://travis-ci.org/marmelab/admin-config.svg?branch=master)](https://travis-ci.org/marmelab/admin-config)
 
 Common files used in both [ng-admin](https://github.com/marmelab/ng-admin) and [ng-admin-react](https://github.com/marmelab/ng-admin-react).
